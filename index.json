@@ -1,0 +1,200 @@
+[
+  {
+    "authors": null,
+    "categories": null,
+    "content": "\r\rThe overall opt formulation\r\r ",
+    "date": 1541452162,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541452162,
+    "objectID": "18e458326f6e0ee4167a2efb669d6388",
+    "permalink": "https://KennethChao.github.io/project/projects_phd_multicontactsimulation/",
+    "publishdate": "2018-11-05T15:09:22-06:00",
+    "relpermalink": "/project/projects_phd_multicontactsimulation/",
+    "section": "project",
+    "summary": "The recent work of walking motion generation on various terrains (stairs and slopes) using hybrid trajectory optimization.",
+    "tags": [
+      "Optimal Control"
+    ],
+    "title": "PhD project, Bipedal walking on various terrains towards to human-like motions",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": "This is my last project at MathWorks Robotics Team (who develops the Robotics System Toolbox (RST)). Inspired by Haddadin\u0026rsquo;s famous demo, the idea is to demonstrate manipulator algorithms in RST for the safe robot-environment interaction to a ROS-enabled robot. In this project I implemented Haddadin\u0026rsquo;s time scaling method to achieve safe trajectory tracking on the Sawyer from Rethink Robotics. The purpose of this project is threefold:\n Contributed an simulation in Simulink with Simscape Multibody to showcase the usage of Robotics Manipulator Blocks. Using RST to test different APIs with the experiments on Sawyer through Robot Operating System (ROS), including the MATLAB code with ROS functions, the Simulink implementation with ROS blocks, and C++ code generated the from Simulink as a ROS node that can directly run on Sawyer. As part of the demonstrations presented in an annual company-wise event.  In the Simulink example, I also implemented a simple contact model (as a spring damper system) to simulate the interaction between the end-effector of the Sawyer and the environment. The extended (marketing) video adapted from this project has been posted on MATLAB Facebook page since this September and currently got 15k views!\n",
+    "date": 1541356001,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541356001,
+    "objectID": "a54e4f0c3f332abb88aeaea2582f1054",
+    "permalink": "https://KennethChao.github.io/project/projects_intern/",
+    "publishdate": "2018-11-04T12:26:41-06:00",
+    "relpermalink": "/project/projects_intern/",
+    "section": "project",
+    "summary": "This is the project I contributed as a feature example in Robotics System Toolbox (RST) for MATLAB 2018a.",
+    "tags": [
+      "Contact Control",
+      "Experiment"
+    ],
+    "title": "MathWorks, Safe trajectory tracking using Sawyer",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": "This is a project using trajectory optimization with direct collocation framework. The objective is to generate multi-domain walking for bipedal robot AMBER 3. Modified from Michael Posa\u0026rsquo;s Trajectory Optimization through Contact, we used the Hermite-Simpson transcription to improve the dynamic accruacy for the collocation points approximated as the nodes on cubic splines. In this work we also compared the optimization results with three different contact constraints:\n Sliding allowed contact constraints (SACC, right animation below) Non-sliding contact constraints (NSCC, left animation below) NSCC with one-sided spring constraints (OSS)  where different styles of walking gaits can be generated with different constraints. \r\r\nThe cost and the double support ratio of those three constraints are shown below, where the optimization result of OSS is probably premature because the additional complementary constraints to describe one-sided springs complicate the original formulation more.\n   Constraints SACC NSCC OSS     Cost of transport 0.048 0.049 2.664   Double support percentage 31.37% 35.48% 35.48%    In addition, towards to generate human-like motion, we added several schemes:\n Virtual springs on ankles to adjust the foot-rolling motion (e.g. adjust the gait to have clearer toe-off or heel-strike motions) and a aditional penalty cost to limit the activation of springs. An kinematic optimization as post-processing to increase the foot clearance as shown below: \r  The experiment is still undergoing, but the current result has shown the capability of bipedal locomotion towards to a more human-like movement:   ",
+    "date": 1541279355,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541279355,
+    "objectID": "243de4c07f4232ed70563aa49ce11d25",
+    "permalink": "https://KennethChao.github.io/project/projects_phd_multicontactexp/",
+    "publishdate": "2018-11-03T15:09:15-06:00",
+    "relpermalink": "/project/projects_phd_multicontactexp/",
+    "section": "project",
+    "summary": "In this project we modified the trajectory optimization thorugh contact, and added several schemes to adjust the gait to be more human-like.",
+    "tags": [
+      "Optimal Control",
+      "Experiment"
+    ],
+    "title": "PhD project, Towards to human-like walking gait",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": "In this work we designed a QP-based controller combining real-time walking pattern generation and constrained nonlinear control to achieve robotic walking under Zero-Moment Point (ZMP) and torque constraints.\nThis method utilize the fact that existing solutions to both walking pattern generation and constrained nonlinear control (summarized in the following table) have been independently constructed as Quadratic Programs (QPs, as shown below) and that these constructions can be related through an equality constraint on the instantaneous acceleration of the center of mass (COM).\n\rThe QP of constrained nonlinear control.\r\r \rThe QP of COM planning (in the form of MPC) with linear inverted pendulum (LIP).\r\r    Controller Walking Pattern Generation QP controller with RES-CLF     Purpose COM planning for LIP Tracking control for nonlinear system   Pros ZMP constraints over the horizon instantaneous ZMP, torque, and CLF constraints for nonlinear dynamics   Cons The LIP might not reflect the nonlinear dyanmics The ZMP constraints over the horizon cannot be guaranteed    To summarize, this unified controller (as shown below) solves a single Quadratic Program which incorporates elements from Model Predictive Control (MPC) based center of mass planning and from rapidly exponentially stabilizing control Lyapunov function (RES-CLF). The resulting QP-based controller simultaneously solves for a COM trajectory that satisﬁes ZMP constraints over a future horizon while also producing joint torques consistent with instantaneous acceleration, torque, ZMP and RES-CLF constraints.\n\rThe unified framework as single QP.\r\r ",
+    "date": 1541199761,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541199761,
+    "objectID": "e215bc442416e7758f222ff88b91741e",
+    "permalink": "https://KennethChao.github.io/project/project_qp_controller/",
+    "publishdate": "2018-11-02T17:02:41-06:00",
+    "relpermalink": "/project/project_qp_controller/",
+    "section": "project",
+    "summary": "A method of combining real-time walking pattern generation and constrained nonlinear control to achieve robotic walking under Zero-Moment Point (ZMP) constraints.",
+    "tags": [
+      "Optimal Control"
+    ],
+    "title": "PhD project, QP-based Controller to Unify COM Planning and Torque Control",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": " In my second year of MS study, my main research objective is to build the bipedal mechanism for a human-sized humanoid robot (which called Nino later on) from a prototype design and run the developed ZMP-based walking on it. Since there was no human-sized bipedal robot has been successfully built in our lab before, it was a challenging task at that moment. one year later, with a well-planned schedule, the efficient execution, and the great team work, we managed to built the bipedal robot and the ZMP-based walking was successfully tested.\nMechanism design of the biped mechanism with trunk \r\r\r As shown in the figure (the highligt parts) above, I mainly designed the thigh and torso mechanisms. My main responsibilities of mechanism design include:\n The mechanism design (SolidWorks). Performed FEA analysis (CATIA and SolidWorks) with different mechanism groups to optimize the structure (as shown below). Checked the design with walking simulation. Chose proper mechanical components (bearings, timely belts/pulleys, harmonic drives and motors) to meet the requirements (from simulation). Generated CAD drawings, exploded views and documentations for mechanism fabrication and assembly.  \r Electronics development of the biped robot \r\r We used the distributed control system (with CAN Bus and USB) for the bipedal mechanism (as shown above). My mentor - Jiu-Lou Yan designed the main PCB boards for motor control, and I assisted him to solder those control boards, tested them and integrated the firmware/software to complete the entire system. My main responsibilities of the development of eletronics include:\n Soldered the control boards (motor driver with MCU) with motor testing. Arranged the wiring of the eletronics and trouble-shoot (as shown below). Wrote the firmware of the MCU (in control board) for the (joint) homing. Designed the PCB for CAN Bus to USB adapter, and wrote its firmware.  \r\r ",
+    "date": 1541186417,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541186417,
+    "objectID": "262f7c202573ffaf27d108c98f8c7555",
+    "permalink": "https://KennethChao.github.io/project/projects_ms/",
+    "publishdate": "2018-11-02T13:20:17-06:00",
+    "relpermalink": "/project/projects_ms/",
+    "section": "project",
+    "summary": "My MS's main project: design the bipedal mechanism and the electronics of a human-sized humanoid robot.",
+    "tags": [
+      "Experiment"
+    ],
+    "title": "MS project, Mechatronics of a Humanoid Robot Nino",
+    "type": "project"
+  },
+  {
+    "authors": null,
+    "categories": null,
+    "content": "This controller was degined to adapt uncertained step height. Two controllers are applied in different levels (as shown in the following figure):\n The ladning modification (triggered by impulse detection) determines the updated level height, holds the landing foot position, and switchs the state machine to double support when the impact occurs. Due to the impact, the flat contacts on both feet might break (which is not desired in double support). In this case, the ankle stabilizer adjusts the ankle orientations based on a simplified model to restore the flat contacts. \r  In the following simulation, the upper body motion is controlled to cancel the momentum about the vertical axis induced by the lower body movement, to mitigate the slipping in the walking simulation.   ",
+    "date": 1541054159,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1541054159,
+    "objectID": "01405e27423cf8d16f1566c8085ecb4a",
+    "permalink": "https://KennethChao.github.io/project/project_ms_control/",
+    "publishdate": "2018-11-01T00:35:59-06:00",
+    "relpermalink": "/project/project_ms_control/",
+    "section": "project",
+    "summary": "The walking controller I developed to adapt step hieght uncertainty with 6-axis force sensor, assumed without the knowledge of the terrain profile.",
+    "tags": [
+      "Contact Control"
+    ],
+    "title": "MS project, Walking Control under Step Height Uncertainty",
+    "type": "project"
+  },
+  {
+    "authors": [
+      "Kenneth Chao",
+      "Pilwon Hur"
+    ],
+    "categories": null,
+    "content": "",
+    "date": 1504242000,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1504242000,
+    "objectID": "afa9e7b7826a50138191a7a168526800",
+    "permalink": "https://KennethChao.github.io/files/preprint_opt_through_contact.pdf",
+    "publishdate": "2017-09-01T00:00:00-05:00",
+    "relpermalink": "/files/preprint_opt_through_contact.pdf",
+    "section": "publication",
+    "summary": "",
+    "tags": null,
+    "title": "A Step Towards Generating Human-Like Walking Gait via Trajectory Optimization through Contact for a Bipedal Robot with One-Sided Springs on Toes",
+    "type": "publication"
+  },
+  {
+    "authors": [
+      "Kenneth Chao",
+      "Matthew Powell",
+      "Aaron Ames",
+      "Pilwon Hur"
+    ],
+    "categories": null,
+    "content": "",
+    "date": 1467349200,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1467349200,
+    "objectID": "c6a04831d407531c1d2145ca48ca4bf6",
+    "permalink": "https://KennethChao.github.io/files/preprint_unifiedqp.pdf",
+    "publishdate": "2016-07-01T00:00:00-05:00",
+    "relpermalink": "/files/preprint_unifiedqp.pdf",
+    "section": "publication",
+    "summary": "",
+    "tags": null,
+    "title": "Unification of Locomotion Pattern Generation and Control Lyapunov Function-based Quadratic Programs",
+    "type": "publication"
+  },
+  {
+    "authors": [
+      "Kenneth Chao",
+      "Jiu-Lou Yan",
+      "Meng-Ku Chi",
+      "Han-Pang Huang"
+    ],
+    "categories": null,
+    "content": "",
+    "date": 1364792400,
+    "expirydate": -62135596800,
+    "kind": "page",
+    "lang": "en",
+    "lastmod": 1364792400,
+    "objectID": "21d853a68868592a9a2d583ae5eed4bc",
+    "permalink": "https://KennethChao.github.io/publication/article/",
+    "publishdate": "2013-04-01T00:00:00-05:00",
+    "relpermalink": "/publication/article/",
+    "section": "publication",
+    "summary": "",
+    "tags": null,
+    "title": "Natural Walking Pattern Generation and Control for Humanoid Robots with the Design of Toe and Heel Mechanism",
+    "type": "publication"
+  }
+]

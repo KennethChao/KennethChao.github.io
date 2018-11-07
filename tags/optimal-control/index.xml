@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimal Control on Ken&#39;s Personal Website</title>
+    <link>https://KennethChao.github.io/tags/optimal-control/</link>
+    <description>Recent content in Optimal Control on Ken&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 05 Nov 2018 15:09:22 -0600</lastBuildDate>
+    
+	<atom:link href="https://KennethChao.github.io/tags/optimal-control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PhD project, Bipedal walking on various terrains towards to human-like motions</title>
+      <link>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</link>
+      <pubDate>Mon, 05 Nov 2018 15:09:22 -0600</pubDate>
+      
+      <guid>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</guid>
+      <description>The overall opt formulation </description>
+    </item>
+    
+    <item>
+      <title>PhD project, Towards to human-like walking gait</title>
+      <link>https://KennethChao.github.io/project/projects_phd_multicontactexp/</link>
+      <pubDate>Sat, 03 Nov 2018 15:09:15 -0600</pubDate>
+      
+      <guid>https://KennethChao.github.io/project/projects_phd_multicontactexp/</guid>
+      <description>This is a project using trajectory optimization with direct collocation framework. The objective is to generate multi-domain walking for bipedal robot AMBER 3. Modified from Michael Posa&amp;rsquo;s Trajectory Optimization through Contact, we used the Hermite-Simpson transcription to improve the dynamic accruacy for the collocation points approximated as the nodes on cubic splines. In this work we also compared the optimization results with three different contact constraints:
+ Sliding allowed contact constraints (SACC, right animation below) Non-sliding contact constraints (NSCC, left animation below) NSCC with one-sided spring constraints (OSS)  where different styles of walking gaits can be generated with different constraints.</description>
+    </item>
+    
+    <item>
+      <title>PhD project, QP-based Controller to Unify COM Planning and Torque Control</title>
+      <link>https://KennethChao.github.io/project/project_qp_controller/</link>
+      <pubDate>Fri, 02 Nov 2018 17:02:41 -0600</pubDate>
+      
+      <guid>https://KennethChao.github.io/project/project_qp_controller/</guid>
+      <description>In this work we designed a QP-based controller combining real-time walking pattern generation and constrained nonlinear control to achieve robotic walking under Zero-Moment Point (ZMP) and torque constraints.
+This method utilize the fact that existing solutions to both walking pattern generation and constrained nonlinear control (summarized in the following table) have been independently constructed as Quadratic Programs (QPs, as shown below) and that these constructions can be related through an equality constraint on the instantaneous acceleration of the center of mass (COM).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Ken&#39;s Personal Website</title>
+    <link>https://KennethChao.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Ken&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 01 Sep 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://KennethChao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Step Towards Generating Human-Like Walking Gait via Trajectory Optimization through Contact for a Bipedal Robot with One-Sided Springs on Toes</title>
+      <link>https://KennethChao.github.io/files/preprint_opt_through_contact.pdf</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://KennethChao.github.io/files/preprint_opt_through_contact.pdf</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unification of Locomotion Pattern Generation and Control Lyapunov Function-based Quadratic Programs</title>
+      <link>https://KennethChao.github.io/files/preprint_unifiedqp.pdf</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://KennethChao.github.io/files/preprint_unifiedqp.pdf</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
