@@ -18,7 +18,8 @@
       <pubDate>Mon, 05 Nov 2018 15:09:22 -0600</pubDate>
       
       <guid>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</guid>
-      <description>The overall opt formulation </description>
+      <description>In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints. The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):
+The overall opt formulation Normal walking (flat-terrain):</description>
     </item>
     
     <item>

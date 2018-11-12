@@ -16,7 +16,10 @@
       <pubDate>Mon, 05 Nov 2018 15:09:22 -0600</pubDate>
       
       <guid>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</guid>
-      <description>
+      <description>&lt;p&gt;In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
+The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):&lt;/p&gt;
+
+
 
 
 &lt;figure&gt;
@@ -31,6 +34,86 @@
 &lt;/figcaption&gt;
 
 &lt;/figure&gt;
+
+&lt;p&gt;Normal walking (flat-terrain):
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+
+&lt;p&gt;Down-slope (0.1 radian) walking:
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+
+&lt;p&gt;Down-slope (0.2 radian) walking:
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DS01.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
+
+&lt;p&gt;Down-slope (0.2 radian) walking with smaller range of torso sawying behaves more cautiouly.
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DS02_Small_TorsoAngle.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -436,19 +519,19 @@ My main responsibilities of the development of eletronics  include:&lt;/p&gt;
     
     <item>
       <title>A Step Towards Generating Human-Like Walking Gait via Trajectory Optimization through Contact for a Bipedal Robot with One-Sided Springs on Toes</title>
-      <link>https://KennethChao.github.io/files/preprint_opt_through_contact.pdf</link>
+      <link>https://KennethChao.github.io/publication/chao_citrajopt/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://KennethChao.github.io/files/preprint_opt_through_contact.pdf</guid>
+      <guid>https://KennethChao.github.io/publication/chao_citrajopt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unification of Locomotion Pattern Generation and Control Lyapunov Function-based Quadratic Programs</title>
-      <link>https://KennethChao.github.io/files/preprint_unifiedqp.pdf</link>
+      <link>https://KennethChao.github.io/publication/chao_unifiedzmp/</link>
       <pubDate>Fri, 01 Jul 2016 00:00:00 -0500</pubDate>
       
-      <guid>https://KennethChao.github.io/files/preprint_unifiedqp.pdf</guid>
+      <guid>https://KennethChao.github.io/publication/chao_unifiedzmp/</guid>
       <description></description>
     </item>
     
