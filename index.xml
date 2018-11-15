@@ -55,7 +55,7 @@ The current visualization results are rendered with SimScape Multi-Body as shown
   &lt;source src=&#34;AMBER3_Visual_Walking.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
 
-&lt;p&gt;Down-slope (0.1 radian) walking:
+&lt;p&gt;Normal walking (flat-terrain) with a different view angle:
 
 
 
@@ -75,7 +75,7 @@ The current visualization results are rendered with SimScape Multi-Body as shown
   &lt;source src=&#34;AMBER3_Visual_Walking_Ground.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
 
-&lt;p&gt;Down-slope (0.2 radian) walking:
+&lt;p&gt;Down-slope (0.1 radian) walking:
 
 
 
