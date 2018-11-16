@@ -16,7 +16,9 @@
       <pubDate>Mon, 05 Nov 2018 15:09:22 -0600</pubDate>
       
       <guid>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</guid>
-      <description>&lt;p&gt;In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
+      <description>
+
+&lt;p&gt;In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints.
 The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):&lt;/p&gt;
 
 
@@ -35,7 +37,8 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 
 &lt;/figure&gt;
 
-&lt;p&gt;Normal walking (flat-terrain):
+&lt;h1 id=&#34;normal-walking-flat-terrain&#34;&gt;Normal walking (flat-terrain):&lt;/h1&gt;
+
 
 
 
@@ -53,9 +56,10 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 
 &lt;video controls &gt;
   &lt;source src=&#34;AMBER3_Visual_Walking.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;/p&gt;
+&lt;/video&gt;
 
-&lt;p&gt;Normal walking (flat-terrain) with a different view angle:
+&lt;h1 id=&#34;normal-walking-2-flat-terrain&#34;&gt;Normal walking 2 (flat-terrain)&lt;/h1&gt;
+
 
 
 
@@ -73,9 +77,10 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 
 &lt;video controls &gt;
   &lt;source src=&#34;AMBER3_Visual_Walking_Ground.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;/p&gt;
+&lt;/video&gt;
 
-&lt;p&gt;Down-slope (0.1 radian) walking:
+&lt;h1 id=&#34;down-slope-0-1-radian&#34;&gt;Down-slope (0.1 radian)&lt;/h1&gt;
+
 
 
 
@@ -93,9 +98,32 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 
 &lt;video controls &gt;
   &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DS01.mp4&#34; type=&#34;video/mp4&#34;&gt;
-&lt;/video&gt;&lt;/p&gt;
+&lt;/video&gt;
 
-&lt;p&gt;Down-slope (0.2 radian) walking with smaller range of torso sawying behaves more cautiouly.
+&lt;h1 id=&#34;down-slope-0-2-radian&#34;&gt;Down-slope (0.2 radian)&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DS02.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h1 id=&#34;down-slope-0-2-radian-1&#34;&gt;Down-slope (0.2 radian)&lt;/h1&gt;
+
+&lt;p&gt;Down-slope walking with smaller range of torso swaying behaves more cautiouly.
 
 
 
@@ -114,6 +142,69 @@ The current visualization results are rendered with SimScape Multi-Body as shown
 &lt;video controls &gt;
   &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DS02_Small_TorsoAngle.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;up-slope-0-1-radian&#34;&gt;Up-slope (0.1 radian):&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_US01.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h1 id=&#34;up-slope-0-2-radian&#34;&gt;Up-slope (0.2 radian):&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_US02.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h1 id=&#34;down-stair-0-1m-decent&#34;&gt;Down-stair (0.1m decent):&lt;/h1&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;AMBER3_Visual_Walking_Ground_DStair01.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
 </description>
     </item>
     
