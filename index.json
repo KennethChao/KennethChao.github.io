@@ -2,7 +2,7 @@
   {
     "authors": null,
     "categories": null,
-    "content": " In this project, I implemented the hybrid trajectory optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize different combinations of constraints. The current visualization results are rendered with SimScape Multi-Body as shown in the following videos (More videos of slope and stair walking are in preparation):\n\rThe overall opt formulation\r\r Normal walking (flat-terrain):  Normal walking 2 (flat-terrain)  Down-slope (0.1 radian)  Down-slope (0.2 radian)  Down-slope (0.2 radian) Down-slope walking with smaller range of torso swaying behaves more cautiouly. \nUp-slope (0.1 radian):  Up-slope (0.2 radian):  Down-stair (0.1m decent):  ",
+    "content": "In this project, I implemented the hybrid zero dynamics (HZD) gait optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize for different contact sequence.\n\r\rThe overall opt formulation\r\r The following videos show the visualizations of optimization results (which are rendered with Simulink and SimScape Multi-Body), and current experiment results as the validations:\n  A set of walking motion comparison between optimization results and human walking is compared in this video, where the similar trends and the differences are highlighted and discussed.\n  ",
     "date": 1541452162,
     "expirydate": -62135596800,
     "kind": "page",
@@ -13,11 +13,12 @@
     "publishdate": "2018-11-05T15:09:22-06:00",
     "relpermalink": "/project/projects_phd_multicontactsimulation/",
     "section": "project",
-    "summary": "The recent work of walking motion generation on various terrains (stairs and slopes) using hybrid trajectory optimization.",
+    "summary": "By genealizing the contact constraints, we extended HZD gait optimization to generate walking motion on flat ground, stairs and slopes.",
     "tags": [
-      "Optimal Control"
+      "Optimal Control",
+      "Experiment"
     ],
-    "title": "PhD project, Bipedal walking on various terrains towards to human-like motions",
+    "title": "PhD project, Walking with foot rolling motion on various terrains",
     "type": "project"
   },
   {

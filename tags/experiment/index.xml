@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 04 Nov 2018 12:26:41 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 05 Nov 2018 15:09:22 -0600</lastBuildDate>
     
 	<atom:link href="https://KennethChao.github.io/tags/experiment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PhD project, Walking with foot rolling motion on various terrains</title>
+      <link>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</link>
+      <pubDate>Mon, 05 Nov 2018 15:09:22 -0600</pubDate>
+      
+      <guid>https://KennethChao.github.io/project/projects_phd_multicontactsimulation/</guid>
+      <description>In this project, I implemented the hybrid zero dynamics (HZD) gait optimization and explore the walking generation on different terrains. As shown in the following figure, the optimization formulation contains modulaized constraints, so that it will be easier to customize for different contact sequence.
+The overall opt formulation The following videos show the visualizations of optimization results (which are rendered with Simulink and SimScape Multi-Body), and current experiment results as the validations:</description>
+    </item>
     
     <item>
       <title>MathWorks, Safe trajectory tracking using Sawyer</title>
